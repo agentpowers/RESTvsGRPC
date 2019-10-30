@@ -7,7 +7,7 @@ namespace RESTvsGRPC
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<BenchmarkHarness>();
+            BenchmarkRunner.Run<BenchmarkHarnessV2>();
             Console.ReadKey();
         }
     }
